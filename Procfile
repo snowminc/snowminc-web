@@ -1,2 +1,2 @@
-release: python app/manage.py migrate
-web: gunicorn app.snowminc_web.wsgi --log-file -
+release: python manage.py migrate
+web: gunicorn snowminc_web.wsgi --log-file -
